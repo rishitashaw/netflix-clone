@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 export const Container = styled.div`
   display: flex;
@@ -23,7 +23,7 @@ export const Frame = styled.div``;
 export const Item = styled.div`
   color: white;
   margin-bottom: 10px;
-  max-width: 670px;
+  max-width: 100%;
 `;
 
 export const Header = styled.div`
