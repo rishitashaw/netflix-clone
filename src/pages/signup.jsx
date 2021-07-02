@@ -49,14 +49,14 @@ export default function SignIn() {
               Sign In
             </Form.Submit>
           </Form.Base>
-          {/* <Form.Text>
-            New to Netflix?
-            <Form.Link to="/signup"> Sign Up Now</Form.Link>
+          <Form.Text>
+            Already a user?
+            <Form.Link to="/signin"> Sign In Now</Form.Link>
           </Form.Text>
           <Form.TextSmall>
             This website is protected by Google reCAPTCHA to ensure you're not a
             bot
-          </Form.TextSmall> */}
+          </Form.TextSmall>
         </Form>
       </HeaderContainer>
       <FooterContainer />
