@@ -29,7 +29,7 @@ export default function App() {
       </IsUserRedirect>
 
       <ProtectedRoute path={ROUTES.BROWSE} user={user}>
-        <Browse user={user} />
+        <Browse />
       </ProtectedRoute>
 
       <IsUserRedirect
