@@ -19,6 +19,26 @@ export default function SignIn() {
 
   const handleSignup = (event) => {
     event.preventDefault();
+
+    firebase
+      .auth()
+      .createUserWithEmailAndPassword(emailAddress, password)
+      .then((result) => {
+        result.user
+          .updateProfile({
+            displayName: firstName,
+            photoURL: Math.floor(Math.random() * 5) + 1,
+          })
+          .then(() => {
+            history.push(ROUTES.BROWSE);
+          });
+      })
+      .catch((error) => {
+        setFirstName("");
+        setEmailAddress("");
+        setPassword("");
+        setError(error.message);
+      });
   };
 
   return (
@@ -46,7 +66,7 @@ export default function SignIn() {
               onChange={({ target }) => setPassword(target.value)}
             />
             <Form.Submit disabled={isInvalid} type="submit">
-              Sign In
+              Sign Up
             </Form.Submit>
           </Form.Base>
           <Form.Text>
