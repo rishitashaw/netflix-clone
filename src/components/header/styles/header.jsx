@@ -1,8 +1,26 @@
 import styled from "styled-components/macro";
+import { Link as ReactRouterLink } from "react-router-dom";
 
 export const Logo = styled.img``;
 
-export const Button = styled.div``;
+export const ButtonLink = styled(ReactRouterLink)`
+  display: block;
+  background-color: #e50914;
+  text-decoration: none;
+  width: 84px;
+  height: fit-content;
+  color: white;
+  border: 0;
+  font-size: 15px;
+  border-radius: 3px;
+  padding: 8px 17px;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  &:hover {
+    background-color: #f40612;
+  }
+`;
 
 export const Frame = styled.div``;
 
