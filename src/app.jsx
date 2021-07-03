@@ -4,6 +4,7 @@ import * as ROUTES from "./constants/routes";
 import { Home, Browse, SignUp, SignIn } from "./pages/index";
 import { IsUserRedirect, ProtectedRoute } from "./helpers/routes";
 import { useAuthListener } from "./hooks";
+//import SignUp from "./pages/signup";
 
 export default function App() {
   const { user } = useAuthListener();
@@ -25,6 +26,7 @@ export default function App() {
         path={ROUTES.SIGN_UP}
         exact
       >
+        console.log('hello')
         <SignUp />
       </IsUserRedirect>
 
