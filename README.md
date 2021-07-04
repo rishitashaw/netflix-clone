@@ -1,3 +1,20 @@
+# Netflix Clone
+
+![download (6)](https://user-images.githubusercontent.com/75828535/124347125-78385300-dc00-11eb-82da-c05429204087.png)
+
+![download (5)](https://user-images.githubusercontent.com/75828535/124346961-54c0d880-dbff-11eb-9146-fcfdd26b1ac9.png)
+![download (4)](https://user-images.githubusercontent.com/75828535/124346964-57233280-dbff-11eb-8aa8-61ba55c6dbee.png)
+![download (3)](https://user-images.githubusercontent.com/75828535/124346966-59858c80-dbff-11eb-80e2-1d209e21049c.png)
+![download (2)](https://user-images.githubusercontent.com/75828535/124346970-5c807d00-dbff-11eb-8486-3265e4369281.png)
+![download (1)](https://user-images.githubusercontent.com/75828535/124346976-5ee2d700-dbff-11eb-824a-874d359ea48d.png)
+
+![download](https://user-images.githubusercontent.com/75828535/124347129-7ec6ca80-dc00-11eb-9a4e-abb6dcc55f49.png)
+
+
+<br/>
+<br/>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
