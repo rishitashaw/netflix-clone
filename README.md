@@ -1,5 +1,15 @@
 # Netflix Clone
 
+ ## Live Project
+ [Click Here!](https://netflix-clone-a86ef.web.app/)
+ 
+ ## Made Using
+ - React
+ - Context API
+ - Firebase
+
+## Preview
+
 ![download (6)](https://user-images.githubusercontent.com/75828535/124347125-78385300-dc00-11eb-82da-c05429204087.png)
 
 ![download (5)](https://user-images.githubusercontent.com/75828535/124346961-54c0d880-dbff-11eb-9146-fcfdd26b1ac9.png)
